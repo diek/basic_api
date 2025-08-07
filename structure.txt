@@ -1,0 +1,36 @@
+my_fastapi_project/
+├── app/
+│   ├── api/
+│   │   ├── v1/
+│   │   │   ├── endpoints/
+│   │   │   │   ├── users.py
+│   │   │   │   └── items.py
+│   │   │   └── __init__.py
+│   │   └── __init__.py
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── security.py
+│   │   └── __init__.py
+│   ├── db/
+│   │   ├── database.py
+│   │   ├── models.py
+│   │   └── __init__.py
+│   ├── schemas/
+│   │   ├── user.py
+│   │   ├── item.py
+│   │   └── __init__.py
+│   ├── services/
+│   │   ├── user_service.py
+│   │   ├── item_service.py
+│   │   └── __init__.py
+│   ├── main.py
+│   └── __init__.py
+├── tests/
+│   ├── api/
+│   │   ├── test_users.py
+│   │   └── test_items.py
+│   └── conftest.py
+├── requirements.txt
+├── .env
+├── Dockerfile
+└── README.md
