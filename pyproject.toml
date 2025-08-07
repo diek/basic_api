@@ -1,7 +1,7 @@
 [project]
 name = "basic-api"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI starter project"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
